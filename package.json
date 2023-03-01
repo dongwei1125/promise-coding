@@ -1,0 +1,18 @@
+{
+  "name": "promise-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:node": "promises-aplus-tests promise.js",
+    "test:browser": "browserify test/adapter.js -o test/tests.js && open-cli test/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "open-cli": "^7.1.0",
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
